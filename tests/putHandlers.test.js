@@ -7,7 +7,7 @@ const requestBody = {
 
 test('status should be 200', async () => {
     try {
-        const response = await fetch(`${config.API_URL}/api/v1/products/4`, {
+        const response = await fetch(`${config.API_URL}/api/v1/products/7`, {
             method: 'PUT',
             headers: {
             'Content-Type': 'application/json'
@@ -24,7 +24,7 @@ test('status should be 200', async () => {
 test('Data should be true', async () => {
     let data;
     try {
-        const response = await fetch(`${config.API_URL}/api/v1/products/4`, {
+        const response = await fetch(`${config.API_URL}/api/v1/products/7`, {
             method: 'Put',
 			headers: {
 			'Content-Type': 'application/json'
